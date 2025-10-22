@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Inconsolata";
+    src: url(./fonts/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Orbitron";
+    src: url(./fonts/Orbitron-VariableFont_wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: #171717;
+}
+
+nav {
+    padding: 12px 32px 12px 32px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-family: "Orbitron";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    width: fit-content;
+    align-items: center;
+}
+
+
+.logo-text {
+    margin-top: 2px;
+}
+
+.navs {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-family: "Inconsolata";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.connect {
+    height: 43px;
+    width: 104px;
+    border-radius: 34px;
+    padding: 12px 24px 12px 24px;
+    background-color: #FFFFFF1A;
+    border: none;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.hover:hover {
+    scale: 1.05;
+}
+
+.header-section{
+width: 100%;
+align-content: center;
+padding-left: 20px;
+
+}
+
+.header-section p{
+    position: absolute;
+    align-self: center;
+    /* z-index: -1; */
+}

@@ -77,19 +77,146 @@ nav {
     margin-left: 10px;
 }
 
-.hover:hover {
+button:hover {
     scale: 1.05;
+    cursor: pointer;
 }
 
 .header-section{
 width: 100%;
 align-content: center;
-padding-left: 20px;
+display: flex;
+justify-content: center;
 
 }
 
-.header-section p{
-    position: absolute;
+.background{
+    background-image: url(./images/header\ image.png);
+    width: 1216px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+}
+
+.header1{
+    font-family: "Orbitron";
+font-weight: 700;
+font-style: Bold;
+font-size: 120px;
+line-height: 100%;
+letter-spacing: 0px;
+text-align: center;
+color: white;
+}
+
+.subheader{
+    font-family: "Inconsolata";
+font-weight: 500;
+font-style: Medium;
+font-size: 32px;
+line-height: 150%;
+letter-spacing: 0px;
+color: white;
+text-align: center;
+}
+
+.section1{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    align-items: center;
+}
+
+.card1{
+    display: flex;
+    flex-direction: row;
+    border-radius:16px;
+    width: 1216px;
     align-self: center;
-    /* z-index: -1; */
+}
+
+.text-card{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 40px 40px;
+    gap: 12px;
+    background-color: #222222;
+    color: white;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.main-text{
+    font-family: "Orbitron";
+font-weight: 500;
+font-style: Medium;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0px;
+}
+
+.subtext{
+    font-family: "Inconsolata";
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0px;
+}
+
+.b1{
+    font-family: "Inconsolata";
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0px;
+background-color: #EB5855;
+border-radius: 61px;
+padding: 16px 32px 16px 32px;
+width: fit-content;
+border: none;
+color: white;
+}
+
+.subcards{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card2{
+    width: 532px;
+}
+
+.f1{
+    display: flex;
+    flex-direction: column;
+    background-color: #222222;
+    border-radius: 16px;
+}
+
+.text-card2{
+padding: 32px 32px 32px 32px;
+display: flex;
+flex-direction: column;
+gap: 32px;
+color: white;
+}
+
+.red{
+    color: #EB5855;
+}
+
+.card4{
+    width: 668px;
 }

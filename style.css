@@ -220,3 +220,115 @@ color: white;
 .card4{
     width: 668px;
 }
+
+.box{
+    width: 395px;
+    height: 806px;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid{
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(3,258px);
+    grid-template-rows: repeat(3,258px);
+}
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    margin-top: 64px;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.box{
+    color: white;
+    width: 395px;
+    height: 806px;
+    padding: 32px 32px 364px 32px;
+    background-color: #222222;
+    gap: 12px;
+    border-radius: 16px;
+}
+
+.box button{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.main-text2{
+    font-family: Orbitron;
+font-weight: 700;
+font-style: Bold;
+font-size: 40px;
+line-height: 100%;
+letter-spacing: 0px;
+}
+
+.subtext2{
+    font-family: Inconsolata;
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0px;
+}
+
+.a2:hover{
+    scale: 1.02;
+}
+
+footer{
+    color: white;
+    height: 168px;
+    padding: 34px 40px 34px 40px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.socials-copy{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    gap:32px;
+    font-family: Inconsolata;
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0px;
+}
+
+.copy{
+    font-family: Inconsolata;
+font-weight: 500;
+font-style: Medium;
+font-size: 12px;
+line-height: 120%;
+letter-spacing: 0px;
+}
+
+.terms-and-use{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-family: Inconsolata;
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0px;
+align-items: end;
+}
